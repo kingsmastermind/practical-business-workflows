@@ -35,4 +35,3 @@ This is a reference implementation, not a client repository or production servic
 
 The terminal prints an accepted synthetic inquiry, its operations routing, a human-handoff transition, and an event trail. The tests verify duplicate handling and safe follow-up stops. This example does not send messages, connect to a CRM, or display a dashboard.
 
-Already on Robb's M1? Run `node /Users/kingsmastermind/dev/robb-teneo-workflow-showcase/demo.mjs` from any folder.
