@@ -35,3 +35,9 @@ This is a reference implementation, not a client repository or production servic
 
 The terminal prints an accepted synthetic inquiry, its operations routing, a human-handoff transition, and an event trail. The tests verify duplicate handling and safe follow-up stops. This example does not send messages, connect to a CRM, or display a dashboard.
 
+
+## Interactive proof studio
+
+Open index.html or visit the GitHub Pages site. Three synthetic browser-only journeys demonstrate management, fleet operations and sales preparation. The 60-second narrated reel uses these illustrative screens. Voice is computer generated, not Robb's recorded voice.
+
+For marketplace applications, use `?audience=application` to omit the booking link. Match the workflow with `&mode=fleet`, `&mode=management` or `&mode=sales`. Review platform rules before attaching external links.
