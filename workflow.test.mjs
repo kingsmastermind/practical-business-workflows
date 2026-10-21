@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { IntakeQueue } from './workflow.mjs';
+const input={eventId:'demo-001',email:'alex@example.test',kind:'service',optedIn:true};
+test('invalid inquiries never enter queue',()=>{const q=new IntakeQueue();assert.throws(()=>q.accept({eventId:'bad',email:'invalid'}));assert.equal(q.events.length,0)});
+test('duplicates process once',()=>{const q=new IntakeQueue();q.accept(input);assert.equal(q.accept(input).duplicate,true);assert.equal(q.events.length,1)});
+test('service routes to operations',()=>{assert.equal(new IntakeQueue().accept(input).team,'operations')});
+for(const s of ['reply','human','optout','booked'])test(`${s} stops follow-up`,()=>{const q=new IntakeQueue();q.accept(input);assert.equal(q.transition(input.eventId,s).followUpAllowed,false)});
+test('explicit opt-in required',()=>{assert.equal(new IntakeQueue().accept({...input,optedIn:undefined}).followUpAllowed,false)});
+test('unknown signal cannot mutate state',()=>{const q=new IntakeQueue();q.accept(input);assert.throws(()=>q.transition(input.eventId,'unknown'));assert.equal(q.events.length,1)});
