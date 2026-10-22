@@ -7,5 +7,5 @@ Root cause: index.html invented generic workflow cards; media reel reused static
 Fix: replace cards with silent guided product-capture video, animated focus, readable below-player chapter guide.
 Guard: no advance/reset workflow buttons; MP4 contains no audio stream; guide has meaningful captions; use safe original product captures.
 References: 800z onboarding-es BRIEF/DESIGN; AXE6123,6245,6248,6331. Never substitute a mock UI for a real product capture or quote historical scale numbers as current.
-Verified: ffprobe reports exactly48seconds and one video stream/no audio; full decode passes. Source screenshot privacy inspected. Browser shows old workflow controls absent and below-player guide present. Final public seek check pending. AXE144547.
+Verified: ffprobe reports exactly48seconds and one video stream/no audio; full decode passes. Source screenshot privacy inspected. Browser shows old workflow controls absent and below-player guide present. Public timestamp seek confirmed with duration48/seekable0–48; guide advanced to Research workspace during playback. Public page contains replacement source and no rejected buttons. AXE144547.
 Lesson: specific buyer problem + visible product evidence first. Decorative steps are not a product demonstration.
