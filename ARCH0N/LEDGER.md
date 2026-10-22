@@ -16,5 +16,5 @@ Root cause: prior walkthrough used static proof captures without product navigat
 Fix: seven reconstructed synthetic demo view sets; cursor-led tab navigation, brief highlights, individual silent24s tours and21s excerpt montage. Official Lumen logo/observed colors on complete candidate proof page. No source/backend repo or production dashboard changes.
 Clarification: current operator explicitly requests cleaned/skinned presentation views; these reconstructions are labeled accordingly and never asserted as live production footage. This supersedes the prior presentation restriction only within synthetic reconstruction scope.
 Guard: all28 browser view captures observed;8videos metadata verified, zero audio; product/state pages differ. Official logo visibility checked. Shared pitch acceptance requires source/relevance/skin/video/guide/human review before visual acceptance.
-Verified: local browser checks and manifests. Public-byte parity pending publication.
+Verified: local browser checks and manifests. Public Pages build263f321 verified;10exact byte checks for page/example and8videos. Legacy reel aliases updated to the new montage in a followup.
 Lesson: UI navigation must reveal useful product content. A styled table is illustrative proof, not a live integration acceptance.

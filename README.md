@@ -41,3 +41,9 @@ The terminal prints an accepted synthetic inquiry, its operations routing, a hum
 Open index.html or the GitHub Pages site. The former generic button demonstration was removed after operator review. The replacement is a silent 48-second guided video using existing synthetic-data product demonstration captures, animated camera framing, on-screen takeaways and synchronized below-player guidance. It does not depict live product actions.
 
 Use `?audience=application` to omit the booking link. No narration or audio track. Review platform link rules before submission.
+
+## Product walkthrough review collection
+
+Seven cursor-led, silent24s tours are available in products/videos/: mailbox, fleet, affiliate, CRM, sales action queue, operations command center/security and daily execution. The21s montage uses short excerpts. index.html provides below-player guides; pitch-lumen.html is an independent company-branded candidate example. Skins use recovered product color tokens; views are original synthetic reconstructions, not live client screens. No backend source copied.
+
+Superseded media/business-systems-reel.mp4 and media/guided-product-walkthrough.mp4 now serve the current montage so older links do not show rejected zoom/narration.
