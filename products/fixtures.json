@@ -1,0 +1,163 @@
+{
+  "mail": {
+    "name": "NORTHLINE / MAIL",
+    "title": "A better place for customer conversations.",
+    "theme": "mail",
+    "tabs": [
+      "Inbox",
+      "Customer message",
+      "Reply workspace",
+      "Drafts"
+    ],
+    "captions": [
+      "Find the customer conversation without switching tools.",
+      "Open the request and keep its full context in view.",
+      "Prepare a clear reply alongside the original request.",
+      "Inspect a prepared draft in the review workspace. Nothing is sent."
+    ],
+    "views": [
+      "<div class=\"cards\"><article><small>Inbox</small><h2>3 conversations</h2><p>Customer messages in one place</p></article><article><small>Needs reply</small><h2>1 request</h2><p>Assigned to the service desk</p></article><article><small>Drafts</small><h2>0 saved</h2><p>Review before sending</p></article></div><table><thead><tr><th>Sender</th><th>Subject</th><th>Status</th></tr></thead><tbody><tr><td>Harbor Facilities</td><td>Service window for Unit 204</td><td>Needs reply</td></tr><tr><td>Cedar Depot</td><td>Estimate confirmation</td><td>Reviewed</td></tr><tr><td>Operations team</td><td>Tomorrow\u2019s schedule</td><td>Internal</td></tr></tbody></table>",
+      "<div class=\"split\"><article><h2>Harbor Facilities</h2><p class=\"meta\">SERVICE COORDINATION \u00b7 SAMPLE MESSAGE</p><h3>Service window for Unit 204</h3><p>Could we arrange preventive maintenance for Unit 204 next Tuesday? Please send the available service window and estimate.</p><hr><p>Assigned to <b>Service desk</b> \u00b7 Reference <b>REQ-204</b></p></article><article><h2>Conversation details</h2><table><thead><tr><th>Field</th><th>Value</th></tr></thead><tbody><tr><td>Customer</td><td>Harbor Facilities</td></tr><tr><td>Vehicle</td><td>Unit 204</td></tr><tr><td>Next action</td><td>Confirm service window</td></tr></tbody></table></article></div>",
+      "<div class=\"split\"><article><h2>Original request</h2><p>Maintenance for Unit 204 next Tuesday. Customer needs a service window and estimate.</p></article><article><h2>Reply draft</h2><label>To</label><div class=\"field\">service@harbor.example</div><label>Subject</label><div class=\"field\">Re: Service window for Unit 204</div><label>Message</label><textarea aria-label=\"Reply draft\">Thanks for the details. We can review Unit 204 for next Tuesday. I will confirm the available service window and estimate here before the booking is finalized.</textarea><p class=\"meta\">Draft only \u00b7 no email service connected</p></article></div>",
+      "<div class=\"success\">Prepared draft awaiting review</div><table><thead><tr><th>Recipient</th><th>Subject</th><th>State</th></tr></thead><tbody><tr><td>Harbor Facilities</td><td>Re: Service window for Unit 204</td><td>Saved for review</td></tr></tbody></table>"
+    ]
+  },
+  "fleet": {
+    "name": "NORTHLINE / FLEET",
+    "title": "Every service request has an accountable next step.",
+    "theme": "fleet",
+    "tabs": [
+      "Service requests",
+      "Work order",
+      "Estimate review",
+      "Schedule"
+    ],
+    "captions": [
+      "See the request, vehicle and owner in one traditional service view.",
+      "Open the work order and inspect the request history.",
+      "Review the line items before recording an illustrative approval.",
+      "Inspect how an approved work order appears in the schedule."
+    ],
+    "views": [
+      "<div class=\"cards\"><article><small>Open requests</small><h2>3</h2><p>Across two fictional depots</p></article><article><small>Awaiting approval</small><h2>1</h2><p>Customer decision required</p></article><article><small>Scheduled</small><h2>2</h2><p>Confirmed service windows</p></article></div><table><thead><tr><th>Request</th><th>Vehicle</th><th>Service</th><th>Owner</th><th>State</th></tr></thead><tbody><tr><td>REQ-204</td><td>Unit 204</td><td>Preventive maintenance</td><td>Alex Morgan</td><td>Awaiting estimate</td></tr><tr><td>REQ-208</td><td>Unit 208</td><td>Inspection</td><td>Service desk</td><td>Scheduled</td></tr><tr><td>REQ-212</td><td>Unit 212</td><td>Diagnostic review</td><td>Dana Lee</td><td>New</td></tr></tbody></table>",
+      "<div class=\"split\"><article><h2>REQ-204 / Unit 204</h2><span class=\"badge\">Estimate ready for review</span><h3>Preventive maintenance</h3><p>Harbor Facilities \u00b7 North depot</p><p>Requested: Tuesday service window</p><hr><p>Assigned coordinator: Alex Morgan</p></article><article><h2>Service history</h2><ul><li>Request received</li><li>Coordinator assigned</li><li>Estimate assembled for customer review</li></ul></article></div>",
+      "<article><h2>Estimate / EST-204</h2><table><thead><tr><th>Line item</th><th>Quantity</th><th>Illustrative amount</th></tr></thead><tbody><tr><td>Scheduled maintenance</td><td>1</td><td>$180</td></tr><tr><td>Inspection</td><td>1</td><td>$60</td></tr><tr><td>Total</td><td></td><td><b>$240</b></td></tr></tbody></table><p>Sample estimate only. The next view records a local demonstration approval.</p></article>",
+      "<div class=\"success\">Approved work order \u00b7 scheduled-state example</div><table><thead><tr><th>Date</th><th>Vehicle</th><th>Work order</th><th>Coordinator</th><th>Status</th></tr></thead><tbody><tr><td>Tuesday \u00b7 10:00 AM</td><td>Unit 204</td><td>REQ-204</td><td>Alex Morgan</td><td>Scheduled</td></tr></tbody></table><article><h2>Customer visibility</h2><p>Estimate approved \u2192 scheduling confirmed \u2192 service updates remain on the work order.</p></article>"
+    ]
+  },
+  "affiliate": {
+    "name": "SUMMIT / PARTNERS",
+    "title": "A member journey that stays connected.",
+    "theme": "affiliate",
+    "tabs": [
+      "Member overview",
+      "Onboarding",
+      "Referral workspace",
+      "Commissions"
+    ],
+    "captions": [
+      "A member sees the next useful action immediately.",
+      "Required setup and completed steps are visible together.",
+      "Referral attribution has its own workspace and history.",
+      "Review commission states separately from payouts; all values are fictional."
+    ],
+    "views": [
+      "<div class=\"cards\"><article><small>Member</small><h2>Jordan Avery</h2><p>Summit demonstration account</p></article><article><small>Onboarding</small><h2>3 of 4 complete</h2><p>Affiliate profile is next</p></article><article><small>Referrals</small><h2>2 attributed</h2><p>Illustrative referral records</p></article></div><article><h2>Your next step</h2><h3>Complete your affiliate profile</h3><p>Keep member access and referral participation in one guided journey.</p></article>",
+      "<article><h2>Onboarding checklist</h2><div class=\"check\">\u2713 Member access created</div><div class=\"check\">\u2713 Mailbox instructions reviewed</div><div class=\"check\">\u2713 Education workspace opened</div><div class=\"check pending\">\u25cb Affiliate profile awaiting confirmation</div></article>",
+      "<article><h2>Referral workspace</h2><p class=\"field\">summit.example/join?partner=DEMO014</p><p>Illustrative link, not an active enrollment destination.</p><table><thead><tr><th>Referral</th><th>Source</th><th>State</th></tr></thead><tbody><tr><td>Member A</td><td>DEMO014</td><td>Joined</td></tr><tr><td>Member B</td><td>DEMO014</td><td>In review</td></tr></tbody></table></article>",
+      "<div class=\"cards\"><article><small>Illustrative commissions</small><h2>$80</h2><p>Pending review</p></article><article><small>Approved</small><h2>$40</h2><p>Fictional ledger value</p></article><article><small>Payouts</small><h2>$0</h2><p>No payment processor connected</p></article></div><table><thead><tr><th>Reference</th><th>Status</th><th>Amount</th></tr></thead><tbody><tr><td>REF-A</td><td>Pending review</td><td>$40</td></tr><tr><td>REF-B</td><td>Approved</td><td>$40</td></tr></tbody></table>"
+    ]
+  },
+  "crm": {
+    "name": "th1nkt4nk / PIPELINE",
+    "title": "The relationship, context and next move together.",
+    "theme": "crm",
+    "tabs": [
+      "Pipeline",
+      "Deal workspace",
+      "Research brief",
+      "Next action"
+    ],
+    "captions": [
+      "Read the opportunity pipeline by stage.",
+      "Open the deal to see the relationship and conversation context.",
+      "Bring preparation and source notes into the same workspace.",
+      "Inspect a specific next action with a clear owner."
+    ],
+    "views": [
+      "<div class=\"kanban\"><article><h2>Discovery</h2><div class=\"deal\"><b>Harbor Works</b><p>Portal intake review</p><span class=\"badge\">Next: discovery call</span></div></article><article><h2>Proposal</h2><div class=\"deal\"><b>Cedar Services</b><p>Customer coordination</p><span class=\"badge\">Next: scope review</span></div></article><article><h2>Decision</h2><div class=\"deal\"><b>Summit Studio</b><p>Member onboarding</p><span class=\"badge\">Next: stakeholder reply</span></div></article></div>",
+      "<div class=\"split\"><article><h2>Harbor Works</h2><span class=\"badge\">Discovery</span><h3>Customer intake workspace</h3><p>Contact: Jordan Avery \u00b7 Operations</p><p>Stated need: clearer assignment and customer updates.</p><hr><p>Last conversation: scheduling and intake tools are separate.</p></article><article><h2>Relationship timeline</h2><p>Inquiry received \u2192 context reviewed \u2192 discovery call prepared</p></article></div>",
+      "<article><h2>Discovery preparation</h2><h3>Questions tied to the practical need</h3><ol><li>Where does a new request arrive?</li><li>Who owns assignment today?</li><li>How does the customer learn what happens next?</li></ol><hr><p>Evidence note: fictional discovery scenario; no client results implied.</p></article>",
+      "<div class=\"success\">Next-action detail \u00b7 planned task example</div><table><thead><tr><th>Action</th><th>Owner</th><th>Due</th><th>State</th></tr></thead><tbody><tr><td>Confirm intake handoff with operations</td><td>Robb Teneo</td><td>Tomorrow</td><td>Planned</td></tr></tbody></table>"
+    ]
+  },
+  "queue": {
+    "name": "SALES / ACTION QUEUE",
+    "title": "A clear view of the conversations that need attention.",
+    "theme": "queue",
+    "tabs": [
+      "Attention queue",
+      "Lead context",
+      "Conversation",
+      "Follow-up plan"
+    ],
+    "captions": [
+      "Prioritized work surfaces conversations awaiting a next move.",
+      "Open the lead to inspect context before taking action.",
+      "Review the conversation rather than sending a generic follow-up.",
+      "Inspect the planned next step and the resulting queue-state example."
+    ],
+    "views": [
+      "<div class=\"cards\"><article><small>Needs attention</small><h2>2</h2><p>A next move is due</p></article><article><small>Waiting on reply</small><h2>1</h2><p>Follow-up already planned</p></article><article><small>Prepared</small><h2>3</h2><p>Synthetic lead records</p></article></div><table><thead><tr><th>Priority</th><th>Organization</th><th>Context</th><th>Next step</th></tr></thead><tbody><tr><td>Due</td><td>Harbor Works</td><td>Discovery completed</td><td>Confirm stakeholder review</td></tr><tr><td>Due</td><td>Cedar Services</td><td>Scope sent</td><td>Ask about approval path</td></tr><tr><td>Waiting</td><td>Summit Studio</td><td>Reply received</td><td>Review next week</td></tr></tbody></table>",
+      "<article><h2>Harbor Works / Jordan Avery</h2><span class=\"badge\">Needs attention</span><h3>Intake and customer-update workspace</h3><p>Discovery has happened. The next useful question is who else reviews the workflow.</p><p>Conversation owner: Robb Teneo</p></article>",
+      "<article><h2>Conversation context</h2><div class=\"message\">We currently forward requests between the front desk and operations. The customer usually calls back to ask for an update.</div><h3>Prepared next question</h3><p>Who should join the review so we can map the assignment handoff accurately?</p></article>",
+      "<div class=\"success\">Follow-up plan \u00b7 planned queue-state example</div><table><thead><tr><th>Organization</th><th>Next action</th><th>State</th></tr></thead><tbody><tr><td>Harbor Works</td><td>Confirm stakeholder review</td><td>Planned</td></tr><tr><td>Cedar Services</td><td>Ask about approval path</td><td>Due</td></tr></tbody></table>"
+    ]
+  },
+  "command": {
+    "name": "OPERATIONS / COMMAND CENTER",
+    "title": "A calmer view of company operations.",
+    "theme": "command",
+    "tabs": [
+      "Overview",
+      "Work queue",
+      "Company intelligence",
+      "Security & Access"
+    ],
+    "captions": [
+      "Only the signals needed to orient the operator lead the overview.",
+      "Inspect a job and its event history without losing ownership.",
+      "Keep research and source-review status close to operating decisions.",
+      "Access review and traffic-screening visibility support company operations."
+    ],
+    "views": [
+      "<div class=\"cards\"><article><small>Systems</small><h2>4 in view</h2><p>Fictional company workspace</p></article><article><small>Attention</small><h2>1 item</h2><p>A sync job needs review</p></article><article><small>Work queue</small><h2>3 jobs</h2><p>Two complete, one in review</p></article></div><table><thead><tr><th>System</th><th>Health</th><th>Next action</th></tr></thead><tbody><tr><td>Customer communications</td><td>Healthy</td><td>No action</td></tr><tr><td>CRM sync</td><td>In review</td><td>Inspect retry</td></tr><tr><td>Research workspace</td><td>Healthy</td><td>Review latest brief</td></tr><tr><td>Access perimeter</td><td>Monitoring</td><td>Review policy summary</td></tr></tbody></table>",
+      "<article><h2>CRM sync / JOB-014</h2><span class=\"badge\">In review</span><h3>Account update sync</h3><table><thead><tr><th>Field</th><th>Status</th></tr></thead><tbody><tr><td>Owner</td><td>Operations</td></tr><tr><td>Attempt</td><td>2 of 3</td></tr><tr><td>Input</td><td>14 fictional updates</td></tr><tr><td>Event</td><td>Retry queued for review</td></tr></tbody></table><p>Visible state and accountability, without exposing internal endpoints.</p></article>",
+      "<article><h2>Company intelligence</h2><h3>Weekly research brief</h3><table><thead><tr><th>Topic</th><th>Source status</th><th>Owner</th></tr></thead><tbody><tr><td>Customer onboarding patterns</td><td>Reviewed demo notes</td><td>Operations</td></tr><tr><td>Workflow opportunities</td><td>Needs source verification</td><td>Research</td></tr></tbody></table><p>Source status stays explicit before a business decision.</p></article>",
+      "<article><h2>Security & Access</h2><p class=\"meta\">SUPPORTING COMPANY OPERATIONS</p><div class=\"cards\"><article><small>Access</small><h2>Role-scoped</h2><p>Operator and reviewer views</p></article><article><small>Traffic</small><h2>Screening visibility</h2><p>Illustrative event summary</p></article><article><small>Review</small><h2>Human oversight</h2><p>Policy review and exceptions</p></article></div><p>Access review, exception visibility and traffic-screening summaries support informed operating decisions.</p></article>"
+    ]
+  },
+  "daily": {
+    "name": "DAILY / EXECUTION",
+    "title": "Turn priorities into visible next actions.",
+    "theme": "daily",
+    "tabs": [
+      "Today",
+      "Task detail",
+      "This week",
+      "Reach"
+    ],
+    "captions": [
+      "Today\u2019s work is deliberate and bounded.",
+      "Open the task to see its steps and completion evidence.",
+      "Keep near-term priorities separate from today\u2019s commitments.",
+      "Longer-horizon work has a place without crowding the immediate plan."
+    ],
+    "views": [
+      "<div class=\"kanban\"><article><h2>To do</h2><div class=\"deal\"><b>Review customer intake</b><p>Owner: Operations</p><span class=\"badge\">3 steps</span></div></article><article><h2>In progress</h2><div class=\"deal\"><b>Prepare workflow proof</b><p>Owner: Robb Teneo</p><span class=\"badge\">Review cut</span></div></article><article><h2>Complete</h2><div class=\"deal\"><b>Verify demo records</b><p>Synthetic fixtures checked</p><span class=\"badge\">Evidence recorded</span></div></article></div>",
+      "<article><h2>Review customer intake</h2><h3>Steps and evidence</h3><div class=\"check\">\u2713 Map the request entry point</div><div class=\"check pending\">\u25cb Confirm assignment owner</div><div class=\"check pending\">\u25cb Review customer update path</div><hr><p>Completion evidence: reviewed workflow and next action.</p></article>",
+      "<article><h2>This week</h2><table><thead><tr><th>Priority</th><th>Owner</th><th>Next step</th></tr></thead><tbody><tr><td>Customer intake review</td><td>Operations</td><td>Confirm owner</td></tr><tr><td>Workflow proof package</td><td>Robb Teneo</td><td>Review cut</td></tr><tr><td>Research refresh</td><td>Research</td><td>Verify sources</td></tr></tbody></table></article>",
+      "<article><h2>Reach</h2><table><thead><tr><th>Objective</th><th>Why it matters</th><th>First useful step</th></tr></thead><tbody><tr><td>Connected operations</td><td>Reduce fragmented handoffs</td><td>Map a single workflow</td></tr><tr><td>Reusable onboarding</td><td>Make setup consistent</td><td>Identify required steps</td></tr></tbody></table></article>"
+    ]
+  }
+}

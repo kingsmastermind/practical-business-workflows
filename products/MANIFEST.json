@@ -1,0 +1,65 @@
+{
+  "status": "operator_review",
+  "representation": "Reconstructed demonstration views; synthetic records; not live client UI acceptance",
+  "videos": [
+    {
+      "product": "mail",
+      "duration": "24.000000",
+      "audio": false,
+      "bytes": 622918
+    },
+    {
+      "product": "fleet",
+      "duration": "24.000000",
+      "audio": false,
+      "bytes": 612388
+    },
+    {
+      "product": "affiliate",
+      "duration": "24.000000",
+      "audio": false,
+      "bytes": 566623
+    },
+    {
+      "product": "crm",
+      "duration": "24.000000",
+      "audio": false,
+      "bytes": 593612
+    },
+    {
+      "product": "queue",
+      "duration": "24.000000",
+      "audio": false,
+      "bytes": 638606
+    },
+    {
+      "product": "command",
+      "duration": "24.000000",
+      "audio": false,
+      "bytes": 679449
+    },
+    {
+      "product": "daily",
+      "duration": "24.000000",
+      "audio": false,
+      "bytes": 486700
+    },
+    {
+      "product": "montage",
+      "duration": "21.000000",
+      "audio": false,
+      "bytes": 1112746
+    }
+  ],
+  "skins": {
+    "mail": "Recovered Premier Fleet mail palette, neutral Northline brand",
+    "fleet": "Recovered Premier Fleet cream/graphite portal palette, traditional layout",
+    "affiliate": "800z black/gold, neutral Summit brand",
+    "crm": "th1nkt4nk Pipeline violet/deep neutral tokens",
+    "queue": "Authored warm editorial action-queue tokens",
+    "command": "Simplified operations presentation with warm neutrals",
+    "daily": "Neutral daily execution presentation"
+  },
+  "motion": "Cursor-led tab navigation and brief subsection highlights; no zoom or audio",
+  "outreach_sent": false
+}

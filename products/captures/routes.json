@@ -1,0 +1,464 @@
+{
+  "mail": [
+    {
+      "tab": "Inbox",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 125.1875
+      },
+      "focus": {
+        "height": 420.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Customer message",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 178.1875
+      },
+      "focus": {
+        "height": 326,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Reply workspace",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 231.1875
+      },
+      "focus": {
+        "height": 545.140625,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Drafts",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 284.1875
+      },
+      "focus": {
+        "height": 201,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    }
+  ],
+  "fleet": [
+    {
+      "tab": "Service requests",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 125.1875
+      },
+      "focus": {
+        "height": 420.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Work order",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 178.1875
+      },
+      "focus": {
+        "height": 348.25,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Estimate review",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 231.1875
+      },
+      "focus": {
+        "height": 380.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Schedule",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 284.1875
+      },
+      "focus": {
+        "height": 334.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    }
+  ],
+  "affiliate": [
+    {
+      "tab": "Member overview",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 150.375
+      },
+      "focus": {
+        "height": 372.5,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Onboarding",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 203.375
+      },
+      "focus": {
+        "height": 346,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Referral workspace",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 256.375
+      },
+      "focus": {
+        "height": 376.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Commissions",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 309.375
+      },
+      "focus": {
+        "height": 361.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    }
+  ],
+  "crm": [
+    {
+      "tab": "Pipeline",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 125.1875
+      },
+      "focus": {
+        "height": 234.4375,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Deal workspace",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 178.1875
+      },
+      "focus": {
+        "height": 348.25,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Research brief",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 231.1875
+      },
+      "focus": {
+        "height": 288.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Next action",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 284.1875
+      },
+      "focus": {
+        "height": 201,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    }
+  ],
+  "queue": [
+    {
+      "tab": "Attention queue",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 150.375
+      },
+      "focus": {
+        "height": 420.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Lead context",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 203.375
+      },
+      "focus": {
+        "height": 272.5,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Conversation",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 256.375
+      },
+      "focus": {
+        "height": 280.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Follow-up plan",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 309.375
+      },
+      "focus": {
+        "height": 260,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    }
+  ],
+  "command": [
+    {
+      "tab": "Overview",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 150.375
+      },
+      "focus": {
+        "height": 479.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Work queue",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 203.375
+      },
+      "focus": {
+        "height": 538.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Company intelligence",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 256.375
+      },
+      "focus": {
+        "height": 371.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Security & Access",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 309.375
+      },
+      "focus": {
+        "height": 351.640625,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    }
+  ],
+  "daily": [
+    {
+      "tab": "Today",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 125.1875
+      },
+      "focus": {
+        "height": 234.4375,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Task detail",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 178.1875
+      },
+      "focus": {
+        "height": 423.75,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "This week",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 231.1875
+      },
+      "focus": {
+        "height": 326,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    },
+    {
+      "tab": "Reach",
+      "rect": {
+        "height": 46,
+        "width": 188,
+        "x": 20,
+        "y": 284.1875
+      },
+      "focus": {
+        "height": 267,
+        "width": 1045,
+        "x": 266,
+        "y": 248.984375
+      },
+      "verified": true
+    }
+  ]
+}

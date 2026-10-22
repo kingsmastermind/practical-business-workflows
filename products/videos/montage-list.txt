@@ -1,0 +1,7 @@
+file 'mail-excerpt.mp4'
+file 'fleet-excerpt.mp4'
+file 'affiliate-excerpt.mp4'
+file 'crm-excerpt.mp4'
+file 'queue-excerpt.mp4'
+file 'command-excerpt.mp4'
+file 'daily-excerpt.mp4'
