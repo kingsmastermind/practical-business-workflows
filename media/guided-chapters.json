@@ -1,0 +1,34 @@
+[
+  {
+    "start": 0,
+    "title": "Customer communications",
+    "heading": "From request to a useful reply.",
+    "description": "A service request stays alongside the customer message and a prepared response.",
+    "takeaway": "Keep the conversation and next action together.",
+    "source": "m41lb0x-synthetic-onboarding-v1-screen.png"
+  },
+  {
+    "start": 12,
+    "title": "Sales preparation",
+    "heading": "Context before the conversation.",
+    "description": "Discovery questions turn a research brief into a focused conversation plan.",
+    "takeaway": "Ask questions tied to the buyer's stated pain.",
+    "source": "precall-synthetic-v1-screen.png"
+  },
+  {
+    "start": 24,
+    "title": "Operational visibility",
+    "heading": "See the work across the business.",
+    "description": "A shared control surface brings operational status and attention into one view.",
+    "takeaway": "Give the operator a clear view of what needs attention.",
+    "source": "x4vier-control-plane-v1-screen.png"
+  },
+  {
+    "start": 36,
+    "title": "Research workspace",
+    "heading": "Make information navigable.",
+    "description": "Organized evidence gives research a place to be reviewed and used.",
+    "takeaway": "Keep the useful evidence close to the decision.",
+    "source": "private-intel-synthetic-v1-screen.png"
+  }
+]

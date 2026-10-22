@@ -1,20 +1,10 @@
 {
-  "status": "review_cut",
-  "voice": "macOS Samantha synthetic narration; not Robb voice",
-  "main": "business-systems-reel.mp4",
-  "short_clips": {
-    "management": "management-clip.mp4",
-    "fleet": "fleet-clip.mp4",
-    "sales": "sales-clip.mp4"
-  },
-  "agency": {
-    "mode": "Match demonstrated workflow to prospect need; no invented customer outcomes",
-    "suggested_line": "Here is a short illustrative walkthrough of how I connect onboarding, approvals and team workflows around a practical business need."
-  },
-  "applications": {
-    "mode": "Use audience=application and relevant mode; review each platform link rules before attachment",
-    "suggested_line": "This interactive reference demonstrates how I approach operational workflows, human review and clear next actions."
-  },
-  "source_footage": "New synthetic screens only; original 800z footage not reused",
-  "review": "Operator to review narration and presentation before attaching to outbound proposals"
+  "status": "revised_review_cut",
+  "main": "guided-product-walkthrough.mp4",
+  "duration_seconds": 48,
+  "audio": "none",
+  "interaction": "chapter seeking only; generic workflow removed",
+  "source": "Existing synthetic-data product demonstration captures",
+  "guide": "Synchronized below-player captions plus timestamped chapters",
+  "outbound": "No sends or application updates"
 }
